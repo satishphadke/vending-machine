@@ -14,7 +14,7 @@ pinMode( laserPin , OUTPUT);
 digitalWrite( laserPin , HIGH);
 }
 
-
+/* this is the loop */
 void loop() {
 int ldrStatus = analogRead(ldrPin);
 if (ldrStatus > 100) {
